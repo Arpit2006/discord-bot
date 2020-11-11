@@ -63,7 +63,8 @@ async def on_message(message):
                 await message.channel.send(f'{i+1}.{results[i]}') 
 		
         if message.content == '!help':
-            await message.channel.send('this is the Gaming with prabal bot \n it has some commands like \n if you type "hi" it will tell hello')
+            await message.channel.send('this is the Av5051 bot
+ \n it has some commands like \n if you type "hi" it will tell hello')
             await message.channel.send('some other commands are "!rolldice" and "!news"')
     if message.content == 'how u doing':
         await message.channel.send('im nice thanks for asking')
